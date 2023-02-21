@@ -7,7 +7,6 @@ error_reporting(E_ALL ^E_NOTICE ^E_WARNING ^E_DEPRECATED);
  * @var $mod defined in info.inc.php
  */
 
-error_reporting(E_ALL & ~E_NOTICE);
 if(!defined('SE_SECTION')) {
     die("No access");
 }

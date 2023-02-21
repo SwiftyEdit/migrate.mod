@@ -21,5 +21,6 @@ $modnav = [
     ['link' => 'overview', 'file' => 'start'],
     ['link' => 'change db', 'file' => 'change_db'],
     ['link' => 'import fC', 'file' => 'import_fc'],
+    ['link' => 'import fN', 'file' => 'import_fn'],
     ['link' => 'readme', 'file' => 'readme']
 ];
