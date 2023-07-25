@@ -22,7 +22,7 @@ echo '</div>';
 $flatNews_db_file = SE_CONTENT.'/modules/migrate.mod/upload/flatNews.sqlite3';
 
 if(!is_file($flatNews_db_file)) {
-    echo '<div class="alert alert-info">No flatNews Database found:<br>'.$flatNews_db.'</div>';
+    echo '<div class="alert alert-info">No flatNews Database found:<br>'.$flatNews_db_file.'</div>';
 } else {
 
     /* connect the db */
@@ -110,6 +110,6 @@ function import_fn_data($data) {
         "post_meta_description" => $data['news_teaser']
     ]);
 
-    echo 'importet '.$data['news_title'].'<hr>';
+    echo 'imported '.$data['news_title'].'<hr>';
 
 }
