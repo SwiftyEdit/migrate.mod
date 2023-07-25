@@ -15,8 +15,9 @@ require SE_CONTENT.'/modules/migrate.mod/backend/inc/functions.php';
 require SE_CONTENT.'/modules/migrate.mod/install/installer.php';
 require SE_ROOT.'/install/php/functions.php';
 
-
+echo '<div class="subHeader">';
 echo '<h3>'.$mod['name'].' '.$mod['version'].' '.$mod['description'].'</small></h3>';
+echo '</div>';
 
 $readme = file_get_contents(SE_CONTENT."/modules/migrate.mod/README.md");
 

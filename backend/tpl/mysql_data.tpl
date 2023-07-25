@@ -43,7 +43,7 @@
 	<div class="form-group row">
 		<label class="col-sm-3 control-label text-right">{lang_db_prefix}</label>
 		<div class="col-sm-9">
-			<input type="text" class="form-control" name="prefs_database_prefix" placeholder="fcdb_" value="{prefs_database_prefix}">
+			<input type="text" class="form-control" name="prefs_database_prefix" placeholder="sedb_" value="{prefs_database_prefix}">
 			<small class="form-text text-muted">{lang_db_prefix_help}</small>
 		</div>
 	</div>
